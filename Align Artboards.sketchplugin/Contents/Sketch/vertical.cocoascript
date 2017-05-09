@@ -1,0 +1,51 @@
+
+var onRun = function(context) {
+  var maxWidth = 0
+  var groupName = null
+  var tY = 0
+  var tX = 0
+  var doc = context.document
+  var i = 0
+  var layers = doc.currentPage().layers()
+  var layersMeta = []
+
+
+  for (i = 0; i < layers.length; i++) {
+    var layer = layers[i]
+    layersMeta.push({
+      name: layer.name(),
+      layer: layer
+    });
+  }
+
+  layersMeta.sort(function(a, b) {
+    if(a.name < b.name) return -1
+      if(a.name > b.name) return 1
+        return 0
+    });
+
+
+  for(i=0; i < layersMeta.length; i++){
+    var l = layersMeta[i];
+    
+    if (l.name.split("/").length > 1){
+      var lastPart = l.name.split("/")[l.name.split("/").length - 1];
+      var layerGroupName = l.name.replace(lastPart,"");
+    } else {
+      var layerGroupName = l.name;
+    }
+
+    if (groupName != layerGroupName) {
+      groupName = layerGroupName
+      tX = i > 0 ? tX + maxWidth + 400 : 0;
+      tY = 0;
+      maxWidth = 0;
+    }
+    l.layer.frame().x = tX
+    l.layer.frame().y = tY
+    tY += l.layer.frame().height() + 400;
+    maxWidth = l.layer.frame().width() > maxWidth ? l.layer.frame().width() : maxWidth
+  }
+
+};
+

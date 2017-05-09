@@ -1,0 +1,58 @@
+{
+  "author" : "Doub.co",
+  "commands" : [
+    {
+      "script" : "horizontal.cocoascript",
+      "name" : "Align Horizontal",
+      "shortcut" : "cmd alt shift 1",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "horizontal"
+    },
+
+    {
+      "script" : "vertical.cocoascript",
+      "name" : "Align Vertical",
+      "shortcut" : "cmd alt shift 2",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "vertical"
+    },
+
+    {
+      "script" : "horizontal-compact.cocoascript",
+      "shortcut" : "cmd alt shift 3",
+      "name" : "Align Horizontal (Compact)",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "horizontal-compact"
+    },
+
+    {
+      "script" : "vertical-compact.cocoascript",
+      "name" : "Align Vertical (Compact)",
+      "shortcut" : "cmd alt shift 4",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "vertical-compact"
+    }
+  ],
+  "menu" : {
+    "title" : "Align Artboards",
+    "items" : [
+      "horizontal",
+      "vertical",
+      "horizontal-compact",
+      "vertical-compact"
+    ]
+  },
+  "identifier" : "com.doubco.sketch.align-artboards",
+  "version" : "1.0",
+  "description" : "Aligns all artboards vertical or horizontal by name. Uses the same convention as 'Sketch export folder structure 'parent/child'.",
+  "authorEmail" : "hi@doub.co",
+  "name" : "Align Artboards"
+}
