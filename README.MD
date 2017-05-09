@@ -7,11 +7,13 @@ Easily aligns all artboards vertical or horizontal by name. Uses the same conven
 Normal (400px gap between artboards)  
 
 <kbd>⇧ Shift</kbd> + <kbd>⌘ cmd</kbd> +<kbd>⌥ alt</kbd> + <kbd>1</kbd> = Align artboards horizontally.
+
 <kbd>⇧ Shift</kbd> + <kbd>⌘ cmd</kbd> +<kbd>⌥ alt</kbd> + <kbd>2</kbd> = Align artboards vertically.
 
 Compact (100px gap between artboards)  
 
 <kbd>⇧ Shift</kbd> + <kbd>⌘ cmd</kbd> +<kbd>⌥ alt</kbd> + <kbd>3</kbd> = Align artboards horizontally.
+
 <kbd>⇧ Shift</kbd> + <kbd>⌘ cmd</kbd> +<kbd>⌥ alt</kbd> + <kbd>4</kbd> = Align artboards vertically.
 
 ## Why make this plugin?
