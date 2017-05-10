@@ -27,7 +27,7 @@ We were looking for an easy way to organise our big sketch files but couln't fin
 
 ## Installation
 
-1. [Download](https://github.com/) the plugin
+1. [Download](https://github.com/doubco/sketchplugin-align-artboards/archive/1.0.zip) the plugin
 2. Double-click the file, 'Align Artboards.sketchplugin'
 3. That's it...
 
