@@ -22,7 +22,7 @@ Compact (100px gap between artboards)
 
 ## Why make this plugin?
 
-We were looking for an easy way to organise our big sketch files but couln't find a proper solution. So we created this plugin to easily organise artboards and sybmols.
+We were looking for an easy way to organise our big sketch files but couldn't find a proper solution. So we created this plugin to easily organise artboards and sybmols.
 
 
 ## Installation
