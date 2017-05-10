@@ -4,6 +4,10 @@ Easily aligns all artboards vertical or horizontal by name. Uses the same conven
 
 ## Usage
 
+
+![usage](usage/usage.gif)
+
+
 Normal (400px gap between artboards)  
 
 <kbd>⇧ Shift</kbd> + <kbd>⌘ cmd</kbd> +<kbd>⌥ alt</kbd> + <kbd>1</kbd> = Align artboards horizontally.
