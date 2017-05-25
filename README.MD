@@ -41,4 +41,4 @@ Pull requests are welcome and please submit bugs 🐛.
 * Follow [@doubco](https://twitter.com/doubco) on Twitter
 * Follow [@doubco](http://facebook.com/doubco) on Facebook
 * Follow [@doubco](http://instagram.com/doubco) on Instagram
-* Email <hi@doubco.co>
+* Email <hi@doub.co>
